@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    
+    margin: 0 auto;
+}
+
+
+.global-nav {
+    padding: 0 2rem;
+    background-color: aliceblue;
+}
+
+.global-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.global-nav .container nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+
+/*hero*/
+.title {
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+    background-image: url("garden-gb62144b46_1280.jpg");
+    background-size: cover;
+    background-position: 50% 25%;
+}
+.title h2 {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+/*IMTORODUCTION*/
+.IMTORODUCTION {
+    padding: 130px 0;
+}
+.IMTORODUCTION h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.IMTORODUCTION h3 small {
+    font-size: 1.5rem;
+    display: block;
+}
+.IMTORODUCTION .name {
+    display: flex;
+}
+.IMTORODUCTIONt .name .name-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+.IMTORODUCTION .name .name-texts h4 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 200px;
+}
+.IMTORODUCTION .name .name-texts p {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    padding-left: 100px;
+    flex: 1;
+}
+.IMTORODUCTION .name .name-images {
+    flex: 1;
+}
+.IMTORODUCTION .name .name-images img {
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+    padding-left: 60px;
+    object-fit: cover;
+}
+
+
+/* WORKS */
+.WORKS h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Maya1 {
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+table {
+    text-align: center;
+}
+
+.maya img{ 
+    width: 90%;
+    height: 250px;
+}
+
+
+
+/* ABOUT */
+.ABOUT h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 10rem;
+}
+
+table {
+    text-align: center;
+}
+
+.maya img{ 
+    width: 90%;
+    height: 250px;
+}
+   
+
+
+
+
+
+
+
+
+
+
